@@ -62,8 +62,6 @@ class TodoApp:
             self.task_listbox.insert(tk.END, task)
 
     def load_tasks(self):
-        # For simplicity, we won't implement task loading from a file
-        # In a real application, you might load tasks from a database or file
         pass
 
 if __name__ == "__main__":
